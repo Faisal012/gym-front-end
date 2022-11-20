@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata minClientVersion="3.4">
+    <id>Microsoft.TeamFoundationServer.Client</id>
+    <version>16.170.0</version>
+    <title>Microsoft Azure DevOps Core Client Libraries</title>
+    <authors>Microsoft</authors>
+    <owners>microsoft,nugetvss</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">license.txt</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <projectUrl>https://go.microsoft.com/fwlink/?LinkId=613084</projectUrl>
+    <iconUrl>https://go.microsoft.com/fwlink/?LinkId=615568</iconUrl>
+    <description>Integrate with Azure DevOps Server and Azure DevOps Services from desktop-based, ASP.NET, and other Windows applications.  Provides access to version control, work item tracking, build, and more via public REST APIs.</description>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <tags>Azure DevOps Microsoft Team Foundation Server TFS VSO Visual Studio VisualStudio Online REST Build Git TFVC Test Management Agile WIT Work Item Tracking Version Control Client Object Model OM VSTS TeamFoundation</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.2">
+        <dependency id="Microsoft.AspNet.WebApi.Client" version="5.2.7" />
+        <dependency id="Microsoft.AspNet.WebApi.Core" version="5.2.7" />
+        <dependency id="Microsoft.AspNet.WebApi.WebHost" version="5.2.7" />
+        <dependency id="Microsoft.TeamFoundation.DistributedTask.Common.Contracts" version="[16.170.0]" />
+        <dependency id="Microsoft.VisualStudio.Services.Client" version="[16.170.0]" />
+        <dependency id="Newtonsoft.Json" version="12.0.3" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Microsoft.AspNet.WebApi.Client" version="5.2.7" />
+        <dependency id="Microsoft.TeamFoundation.DistributedTask.Common.Contracts" version="[16.170.0]" />
+        <dependency id="Microsoft.VisualStudio.Services.Client" version="[16.170.0]" />
+        <dependency id="Newtonsoft.Json" version="12.0.3" />
+        <dependency id="System.ComponentModel.Annotations" version="4.4.1" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
